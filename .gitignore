@@ -4,7 +4,6 @@ scripts/
 pretrained/
 *.egg-info/
 outputs/
-<<<<<<< HEAD
 exports/
 renders/
 results/
@@ -34,7 +33,3 @@ camera_paths/
 */**/__pycache__/
 */__pycache__/
 */**/._.DS_Store
-
-=======
-data
->>>>>>> parent of 9a0b531... linear_mipnerf online

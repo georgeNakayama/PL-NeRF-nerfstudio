@@ -12,7 +12,7 @@ linear_mip_nerf = MethodSpecification(
     TrainerConfig(
     method_name="linear-mipnerf",
     steps_per_eval_image=5000,
-    max_num_iterations=200001,
+    max_num_iterations=1000001,
     pipeline=VanillaPipelineConfig(
         datamanager=VanillaDataManagerConfig(dataparser=BlenderDataParserConfig(), train_num_rays_per_batch=4096),
         model=LinearMipNerfModelConfig(
