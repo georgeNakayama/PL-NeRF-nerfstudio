@@ -1,0 +1,7 @@
+results/
+results*/
+scripts/
+pretrained/
+*.egg-info/
+outputs/
+data
